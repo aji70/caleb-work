@@ -1,0 +1,154 @@
+.container{
+    height: 97vh;
+    width: 215vh;
+    
+    background: whitesmoke;
+}
+.container-fluid {
+    
+    position: relative;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+
+    width: 487px;
+    height: 437px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.cancel{
+    margin-top: 16px;
+    margin-left: 447px;
+}
+
+.pic {
+    position: relative;
+    margin-left: 218px;
+    margin-top: 20px;
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.loca {
+    position: relative;
+    display: flex;    
+    display: inline-flex;
+    width: 400px;
+    height: 22px;
+align-items: center;
+gap: 4px;
+}
+
+.apart{
+    position: relative;
+    
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.pic1{
+    position: relative;
+    margin-top: -15px;
+    margin-left: 185px;
+    width: 20px;
+height: 20px;
+}
+
+.lag{
+    position: relative;
+    margin-top: -10px;
+    color: #3A3A3A;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.price {
+    position: relative;
+    display: flex;
+    margin-left: 26px;
+}
+.prc {
+    color: #3A3A3A;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.ice{
+    color: var(--pallete-positive-normal-active, #11A746);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.pric {
+    position: relative;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 26px;
+}
+
+.ie {
+    color: var(--pallete-negative-normal, #F2471C);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.ybid {
+    position: relative;
+    margin-left: 26px;
+}
+.ybid  input[type=text] {
+    width: 304px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+border: 0.5px solid #3A3A3A;
+background: #F5F5F5;
+    }
+
+    .send{
+        position: relative;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 150px;
+width: 150px;
+height: 30px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--purple-secondary-purple-normal-hover, #910B74);
+    }
+
+.send p{
+    color: #FFF;
+text-align: center;
+
+/* Desktop/body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
