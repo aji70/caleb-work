@@ -1,0 +1,227 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+    .container{
+        overflow-x: hidden;
+        margin-left: -10px;
+        width: 100%;
+        height: 97vh;
+        display: flex;
+        flex-direction: column;
+        background: #FFF;
+    }
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .navbar{
+        margin-top: -5px;
+        margin-left: -10px;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        flex-shrink: 0;
+        background: #FFF;
+        border-bottom: 10px;
+        
+border-bottom: 0.5px  solid var(--purple-secondary-purple-light-active, #E2B4D8);
+    }
+    
+    .abode{
+        
+        margin-left: 100px;
+    }
+    
+    .abode p{
+        color: var(--purple-secondary-purple-normal-active, #810A67);
+    
+    /* Desktop/Heading */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .esb{
+        margin-left: 433px;
+        display: flex;
+        gap: 100px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .esb p{
+        color: var(--purple-secondary-purple-normal-active, #810A67);
+    text-align: center;
+    
+    /* Desktop/body */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+    .Ellipse2{
+        position: relative;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+    
+    .connect{
+        margin-top: 5px;
+        margin-left: 24px;
+        display: flex;
+        width: 180px;
+        height: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 10px;
+border: 0.5px solid var(--purple-secondary-purple-light-active, #E2B4D8);
+    }
+    
+    .connect p{
+        color: #3A3A3A;
+text-align: center;
+
+/* Desktop/body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    /*Nav bar styles ends*/
+
+    .lines{
+        margin-left: 100px;
+        z-index: -1;
+    }
+    .lline {
+    position: relative;
+    margin-top: 117px;
+    margin-left: 90px;
+    width: 441.596px;
+    height: 106.822px;
+    transform: rotate(18.524deg);
+    flex-shrink: 0;
+    
+    }
+    
+    .lsvg{
+    margin-top: -40px;
+    stroke-width: 3px;
+    stroke: var(--purple-secondary-purple-light-active, #E2B4D8);
+    opacity: 0.4;
+    }
+    .rline {
+        position: relative;
+        margin-top: -70px;
+        margin-left: 740px;
+        width: 445.983px;
+        height: 106px;
+        transform: rotate(-38.245deg);
+        flex-shrink: 0;
+    }
+    
+    .rsvg {
+        stroke-width: 4px;
+        stroke: var(--purple-secondary-purple-light-active, #E2B4D8);
+        opacity: 0.4;
+    }
+
+    .uline {
+        margin-left: 250px;
+        margin-top: -20px
+    }
+
+.select p{
+position: relative;
+    color: #000;
+    margin-left: 45%;
+
+/* Desktop/Heading */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.selectRole {
+    
+    margin-top: -300px;
+    margin-left: 270px;
+    display: inline-flex;
+align-items: flex-start;
+gap: 100px;
+width: 900px;
+
+}
+
+.specialist {
+width: 400px;
+height: 300px;
+border-radius: 10px;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.look {
+    margin-top: 30px;
+    
+
+}
+
+.look p{
+    color: #000;
+text-align: center;
+
+/* Desktop/body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.pic {
+    margin-top: 30px;
+    margin-left: 142px;
+}
+
+.cont{
+display: flex;
+margin-top: 10px;
+margin-left: 120px;
+width: 150px;
+height: 30px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--purple-secondary-purple-light-active, #E2B4D8);
+}
+
+.cont p{
+    color: #3A3A3A;
+text-align: center;
+
+/* Desktop/body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
