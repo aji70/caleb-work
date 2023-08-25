@@ -155,7 +155,7 @@ size: auto;
 }
 .pic {
     position: relative;
-    margin-left: -440px;
+    margin-left: -450px;
     margin-top: 30px;
     
 }
@@ -218,13 +218,13 @@ line-height: normal;
 .firstCards {
     display: flex;
     margin-top: -50px;
-    margin-left: 100px;
+    margin-left: 120px;
     overflow-x: scroll;
     width: 100%;
 }
 .firstCards1 {
-    margin-top: -50px;
-    margin-left: -1300px;
+    margin-top: -60px;
+    margin-left: -1060px;
 }
 .firstCards1 p{
     margin-left: 100px;
@@ -233,7 +233,7 @@ text-align: center;
 
 /* Desktop/body */
 font-family: Inter;
-font-size: 16px;
+font-size: 25px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -520,13 +520,15 @@ line-height: 16px; /* 160% */
 }
 
 .secondFrame{
+    position: relative;
+    margin-top: -70px;
     margin-left: 100px;
     position: relative;
     display: flex;
     flex-direction: column;
     overflow-x: scroll;
     overflow-y: scroll;
-    height: 320px;
+    height: 360px;
     width: 100%;
     
     
@@ -698,3 +700,27 @@ line-height: 16px; /* 133.333% */
     margin-top: 200px;
     margin-left: -633px;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px whitesmoke; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  whitesmoke;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #810A67; 
+  }
